@@ -30,14 +30,11 @@
 	</dependencies>
 
 	<build>
+	    <defaultGoal>install</defaultGoal>
 		<plugins>
 			<plugin>
 				<groupId>org.springframework.boot</groupId>
 				<artifactId>spring-boot-maven-plugin</artifactId>
-				<configuration>
-                <source>3.8.7</source>
-                <target>3.8.7</target>
-            </configuration>
 			</plugin>
 		</plugins>
 	</build>
