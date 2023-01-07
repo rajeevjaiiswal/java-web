@@ -35,8 +35,8 @@
 			<plugin>
 				<groupId>org.springframework.boot</groupId>
 				<artifactId>spring-boot-maven-plugin</artifactId>
-                    <scope>runtime</scope>
-					<configuration>
+                <scope>runtime</scope>
+				<configuration>
                       <verbose>true</verbose>
                       <fork>true</fork>
                       <executable>${java.home}</executable>
